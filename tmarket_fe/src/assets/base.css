@@ -1,0 +1,54 @@
+/* Base colors - Teknoloji Temalı */
+:root {
+    --color-primary: #007bff; /* Parlak Mavi (Bootstrap primary) */
+    --color-primary-dark: #0056b3; /* Daha Koyu Mavi */
+    --color-primary-light: #e1f0ff; /* Açık Mavi */
+
+    --color-secondary: #ffc107; /* Altın Sarısı/Turuncu (Vurgu) */
+    --color-secondary-dark: #d39e00;
+    --color-secondary-light: #fff3cd;
+
+    --color-gray-dark: #212529; /* Çok Koyu Gri (Koyu Mod için) */
+    --color-gray-medium: #6c757d; /* Orta Gri */
+    --color-gray-light: #f8f9fa; /* Çok Açık Gri */
+
+    --color-white: #fff;
+    --color-black: #000;
+}
+
+/* Semantic color variables */
+:root {
+    --color-background: var(--color-white);
+    --color-background-soft: var(--color-gray-light);
+    --color-background-mute: var(--color-gray-light);
+
+    --color-border: var(--color-gray-medium);
+    --color-border-hover: var(--color-primary); /* Mavi ile vurgu */
+
+    --color-heading: var(--color-gray-dark);
+    --color-text: var(--color-gray-dark);
+    --color-link: var(--color-primary); /* Mavi linkler */
+    --color-link-hover: var(--color-primary-dark);
+
+    --color-accent: var(--color-secondary); /* Turuncu vurgu rengi */
+
+    --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background: var(--color-gray-dark);
+        --color-background-soft: #181a1b;
+        --color-background-mute: #121415;
+
+        --color-border: #444;
+        --color-border-hover: var(--color-primary-light);
+
+        --color-heading: var(--color-white);
+        --color-text: #eee;
+        --color-link: var(--color-primary-light);
+        --color-link-hover: var(--color-primary);
+    }
+}
+
+/* Global styles (

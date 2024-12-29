@@ -1,0 +1,22 @@
+.koyu {
+    --arkaplan: #000000; /* Saf siyah arka plan */
+    --yazirengi: #e6e6e6; /* Çok açık gri/beyazımsı yazı rengi (siyahla yüksek kontrast) */
+
+    --baslik-arkaplan: #1a242f; /* Koyu mavi/gri başlık arka planı */
+    --baslik-yazirengi: #ffffff; /* Beyaz başlık yazısı */
+
+    --menu-arkaplan: #1a242f; /* Başlıkla uyumlu menü arka planı */
+    --menu-yazitipi: #66b3ff; /* Açık mavi menü yazısı (vurgu) */
+
+    --menu-arkaplan-uzerinde: #2980b9; /* Daha koyu mavi menü üzerine gelince */
+    --menu-yazitipi-uzerinde: #ffffff; /* Beyaz menü üzerine gelince yazı */
+
+    --sagicerik-arkaplan: #0d1117; /* Siyah tonlu içerik arka planı */
+    --sagicerik-yazitipi: #e6e6e6; /* Çok açık gri/beyazımsı yazı rengi */
+
+    --solicerik-arkaplan: #0d1117; /* Siyah tonlu içerik arka planı */
+    --solicerik-yazitipi: #000000; /* Çok açık gri/beyazımsı yazı rengi */
+
+    --altbilgi-arkaplan: #1a242f; /* Başlık ve menü ile uyumlu altbilgi */
+    --altbilgi-yazirengi: #ffffff; /* Açık mavi altbilgi yazısı (vurgu) */
+}

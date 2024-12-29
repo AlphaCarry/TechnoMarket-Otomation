@@ -1,0 +1,22 @@
+.acik {
+    --arkaplan: #f5f5f5; /* Hafif gri arka plan (siyahla kontrast için) */
+    --yazirengi: #333333; /* Koyu gri yazı rengi (okunabilirlik için) */
+
+    --baslik-arkaplan: #dc3545; /* Canlı kırmızı başlık arka planı */
+    --baslik-yazirengi: #ffffff; /* Beyaz başlık yazı rengi (kırmızı ile kontrast) */
+
+    --menu-arkaplan: #343a40; /* Koyu gri/siyahımsı menü arka planı */
+    --menu-yazitipi: #ffffff; /* Beyaz menü yazı tipi */
+
+    --menu-arkaplan-uzerinde: #dc3545; /* Kırmızı menü üzerine gelince arka plan */
+    --menu-yazitipi-uzerinde: #000000; /* Beyaz menü üzerine gelince yazı tipi */
+
+    --sagicerik-arkaplan: #ffffff; /* Beyaz sağ içerik arka planı */
+    --sagicerik-yazitipi: #333333; /* Koyu gri sağ içerik yazı tipi */
+
+    --solicerik-arkaplan: #ffffff; /* Beyaz sol içerik arka planı */
+    --solicerik-yazitipi: #333333; /* Koyu gri sol içerik yazı tipi */
+
+    --altbilgi-arkaplan: #343a40; /* Koyu gri/siyahımsı altbilgi arka planı */
+    --altbilgi-yazirengi: #ffffff; /* Beyaz altbilgi yazı rengi */
+}

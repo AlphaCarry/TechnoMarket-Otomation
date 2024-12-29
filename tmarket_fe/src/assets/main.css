@@ -1,0 +1,51 @@
+@import "yazitipi.css"; /* Font import */
+
+/* Tema dosyaları (varsayılan tema en üste) */
+@import "./temalar/acik_renk_temasi.css";
+@import "./temalar/koyu_renk_temasi.css";
+
+
+/* Base styles (tüm temalar için ortak stiller) */
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'JetBrains Mono', monospace; /* Genel font */
+  transition: color 0.5s, background-color 0.5s; /* Body geçişi */
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.kapsayici { /* #app içindeki kapsayıcı için class kullanmak daha iyi */
+  min-height: 100vh;
+  background-color: var(--arkaplan);
+  color: var(--yazirengi);
+  transition: color 0.5s, background-color 0.5s; /* Kapsayıcı geçişi */
+}
+
+/* Kapsayıcı içindeki elemanlar için geçiş (daha spesifik) */
+.kapsayici h1,
+.kapsayici h2,
+.kapsayici h3,
+.kapsayici p,
+.kapsayici a,
+.kapsayici span,
+.kapsayici ul,
+.kapsayici li,
+.kapsayici button {
+  transition: color 0.5s, background-color 0.5s;
+}
+
+/* Dark mode media query (varsa) */
+@media (prefers-color-scheme: dark) {
+  /* Koyu tema için özel stiller buraya gelecek (gerekirse) */
+  /* Bu kısım temalar dosyalarınızda da olabilir */
+}
